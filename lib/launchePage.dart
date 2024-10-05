@@ -58,6 +58,7 @@ class _LauncherPageState extends State<LauncherPage> {
       // Defer navigation until after the widget tree is built
       WidgetsBinding.instance.addPostFrameCallback((_) {
         Get.to(LoginScreen());
+
       });
     }
   }
